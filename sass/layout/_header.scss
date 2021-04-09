@@ -146,18 +146,10 @@
     display: flex;
   }
 
-  .logo {
-    margin-right: 83px;
-  }
-
   .menu {
     display: flex;
     align-items: center;
     margin-right: 84px;
-
-    &__item:not(:last-child) {
-      margin-right: 50px;
-    }
 
     &__item:not(:last-child) {
       margin-right: 50px;

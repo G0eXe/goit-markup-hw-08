@@ -83,6 +83,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 83px;
+  }
+}
+
 .logo {
   font-family: var(--second-font);
   font-weight: bold;
@@ -226,16 +232,10 @@ img {
   .nav {
     display: flex;
   }
-  .logo {
-    margin-right: 83px;
-  }
   .menu {
     display: flex;
     align-items: center;
     margin-right: 84px;
-  }
-  .menu__item:not(:last-child) {
-    margin-right: 50px;
   }
   .menu__item:not(:last-child) {
     margin-right: 50px;
