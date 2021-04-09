@@ -58,6 +58,12 @@ img {
   padding-right: 15px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -96,6 +102,30 @@ img {
 
 .logo__accent-text {
   color: var(--accent-color);
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.menu {
+  display: none;
+}
+
+.contacts-list {
+  display: none;
+}
+
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 12px 8px;
+}
+
+.burger-icon {
+  width: 24px;
+  height: 16px;
 }
 
 .portfolio {
@@ -450,6 +480,12 @@ img {
   padding-right: 15px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -724,6 +760,30 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   color: var(--main-title-color);
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.menu {
+  display: none;
+}
+
+.contacts-list {
+  display: none;
+}
+
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 12px 8px;
+}
+
+.burger-icon {
+  width: 24px;
+  height: 16px;
 }
 
 .hero {
