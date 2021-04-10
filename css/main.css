@@ -126,10 +126,15 @@ img {
     background-color: transparent;
     border: none;
     padding: 10px 15px;
+    cursor: pointer;
   }
   .burger-icon {
     width: 24px;
     height: 16px;
+  }
+  .burger-btn .burger-icon:hover,
+  :focus {
+    fill: var(--accent-color);
   }
   .mobile-menu {
     position: fixed;
@@ -159,10 +164,15 @@ img {
     position: absolute;
     top: 10px;
     right: 15px;
+    cursor: pointer;
   }
   .mobile-menu__close-icon {
     width: 20px;
     height: 20px;
+  }
+  .mobile-menu__close-btn .mobile-menu__close-icon:hover,
+  .mobile-menu :focus {
+    fill: var(--accent-color);
   }
   .mobile-menu__link {
     font-family: var(--main-font);
@@ -1069,10 +1079,15 @@ img {
     background-color: transparent;
     border: none;
     padding: 10px 15px;
+    cursor: pointer;
   }
   .burger-icon {
     width: 24px;
     height: 16px;
+  }
+  .burger-btn .burger-icon:hover,
+  :focus {
+    fill: var(--accent-color);
   }
   .mobile-menu {
     position: fixed;
@@ -1102,10 +1117,15 @@ img {
     position: absolute;
     top: 10px;
     right: 15px;
+    cursor: pointer;
   }
   .mobile-menu__close-icon {
     width: 20px;
     height: 20px;
+  }
+  .mobile-menu__close-btn .mobile-menu__close-icon:hover,
+  .mobile-menu :focus {
+    fill: var(--accent-color);
   }
   .mobile-menu__link {
     font-family: var(--main-font);

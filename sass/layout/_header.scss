@@ -16,11 +16,17 @@
     background-color: transparent;
     border: none;
     padding: 10px 15px;
+    cursor: pointer;
   }
 
   .burger-icon {
     width: 24px;
     height: 16px;
+  }
+
+  .burger-btn .burger-icon:hover,
+  :focus {
+    fill: var(--accent-color);
   }
 
   .mobile-menu {
@@ -54,11 +60,18 @@
       position: absolute;
       top: 10px;
       right: 15px;
+
+      cursor: pointer;
     }
 
     &__close-icon {
       width: 20px;
       height: 20px;
+    }
+
+    &__close-btn &__close-icon:hover,
+    :focus {
+      fill: var(--accent-color);
     }
 
     &__link {
