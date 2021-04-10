@@ -104,9 +104,9 @@
   align-items: center;
   font-family: var(--accent-color);
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 
   color: var(--content-color);
 
@@ -169,5 +169,21 @@
   &:hover,
   &:focus {
     background: #188ce8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-check-desc {
+    display: flex;
+    align-items: center;
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
   }
 }
