@@ -167,8 +167,9 @@ img {
     cursor: pointer;
   }
   .mobile-menu__close-icon {
-    width: 20px;
-    height: 20px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
   }
   .mobile-menu__close-btn .mobile-menu__close-icon:hover,
   .mobile-menu :focus {
