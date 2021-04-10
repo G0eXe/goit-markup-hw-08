@@ -72,6 +72,10 @@
 
     &__list {
       margin-bottom: 302px;
+
+      & .link.current {
+        color: var(--accent-color);
+      }
     }
 
     &__item:not(:last-child) {

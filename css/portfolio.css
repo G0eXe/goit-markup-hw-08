@@ -175,6 +175,9 @@ img {
   .mobile-menu__list {
     margin-bottom: 302px;
   }
+  .mobile-menu__list .link.current {
+    color: var(--accent-color);
+  }
   .mobile-menu__item:not(:last-child) {
     margin-bottom: 32px;
   }
