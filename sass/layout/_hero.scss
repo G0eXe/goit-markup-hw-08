@@ -37,8 +37,8 @@
     text-transform: uppercase;
 
     color: var(--add-white-color);
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 360px;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
 }
@@ -108,11 +108,9 @@
       letter-spacing: 0.06;
       text-transform: uppercase;
 
-      padding-left: 240px;
-      padding-right: 240px;
-      margin-bottom: 30px;
-
       color: var(--add-white-color);
+
+      max-width: 696px;
     }
   }
 }
