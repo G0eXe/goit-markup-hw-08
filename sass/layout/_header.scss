@@ -24,8 +24,7 @@
     height: 16px;
   }
 
-  .burger-btn .burger-icon:hover,
-  :focus {
+  .burger-btn .burger-icon:hover {
     fill: var(--accent-color);
   }
 
@@ -65,7 +64,6 @@
     }
 
     &__close-icon {
-      position: absolute;
       width: 30px;
       height: 30px;
     }

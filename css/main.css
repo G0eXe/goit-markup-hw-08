@@ -132,8 +132,7 @@ img {
     width: 24px;
     height: 16px;
   }
-  .burger-btn .burger-icon:hover,
-  :focus {
+  .burger-btn .burger-icon:hover {
     fill: var(--accent-color);
   }
   .mobile-menu {
@@ -167,7 +166,6 @@ img {
     cursor: pointer;
   }
   .mobile-menu__close-icon {
-    position: absolute;
     width: 30px;
     height: 30px;
   }
@@ -1086,8 +1084,7 @@ img {
     width: 24px;
     height: 16px;
   }
-  .burger-btn .burger-icon:hover,
-  :focus {
+  .burger-btn .burger-icon:hover {
     fill: var(--accent-color);
   }
   .mobile-menu {
@@ -1121,7 +1118,6 @@ img {
     cursor: pointer;
   }
   .mobile-menu__close-icon {
-    position: absolute;
     width: 30px;
     height: 30px;
   }
