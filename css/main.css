@@ -1448,6 +1448,11 @@ img {
   padding-top: 60px;
 }
 
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .features-list__icon-wrapper {
   display: flex;
   align-items: center;
@@ -1505,6 +1510,12 @@ img {
 @media screen and (min-width: 1200px) {
   .features-list__item {
     width: 270px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
   }
 }
 
