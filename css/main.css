@@ -1519,11 +1519,6 @@ img {
   }
 }
 
-.we-doing {
-  padding-top: 47px;
-  padding-bottom: 94px;
-}
-
 .we-doing__overlay {
   position: absolute;
   bottom: 0;
@@ -1560,6 +1555,17 @@ img {
 .we-doing-list__img {
   width: 370px;
   height: 294px;
+}
+
+.we-doing {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .we-doing {
+    display: block;
+    padding-top: 94px;
+  }
 }
 
 .team {

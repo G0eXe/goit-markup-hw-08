@@ -1,7 +1,4 @@
 .we-doing {
-  padding-top: 47px;
-  padding-bottom: 94px;
-
   &__overlay {
     position: absolute;
     bottom: 0;
@@ -41,5 +38,13 @@
   &__img {
     width: 370px;
     height: 294px;
+  }
+}
+
+.we-doing {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 94px;
   }
 }
