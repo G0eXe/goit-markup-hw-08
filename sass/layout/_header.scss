@@ -46,7 +46,6 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    overflow-y: scroll;
 
     &.is-open {
       opacity: 1;
@@ -84,6 +83,11 @@
       line-height: 1.17;
       letter-spacing: 0.02em;
       color: var(--main-title-color);
+
+      &:hover,
+      :focus {
+        color: var(--accent-color);
+      }
     }
 
     &__list {
@@ -195,6 +199,11 @@
 
       color: var(--main-title-color);
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      :focus {
+        color: var(--accent-color);
+      }
     }
 
     &__link::after {
@@ -211,11 +220,6 @@
 
       transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
       opacity: 0;
-
-      &:hover,
-      :focus {
-        color: var(--accent-color);
-      }
     }
 
     & .link.current {
@@ -316,11 +320,11 @@
 
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
         opacity: 0;
+      }
 
-        &:hover,
-        :focus {
-          color: var(--accent-color);
-        }
+      &:hover,
+      :focus {
+        color: var(--accent-color);
       }
     }
   }
