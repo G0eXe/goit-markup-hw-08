@@ -106,7 +106,9 @@
 
 .footer-form {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   &__title {
     font-family: var(--main-font);
@@ -198,6 +200,14 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-form {
+    &__email-input {
+      max-width: 450px;
+    }
   }
 }
 
