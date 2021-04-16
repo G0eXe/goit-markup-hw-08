@@ -128,7 +128,7 @@
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &__email-input:focus {
+    &:focus {
       border-color: var(--accent-color);
       outline: none;
     }
