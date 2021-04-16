@@ -83,12 +83,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .logo {
-    margin-right: 83px;
-  }
-}
-
 .logo {
   font-family: var(--second-font);
   font-weight: bold;
@@ -108,6 +102,12 @@ img {
 
 .logo__accent-text {
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 83px;
+  }
 }
 
 .header {
@@ -592,6 +592,8 @@ img {
 .footer-social__list {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .footer-social__link {
