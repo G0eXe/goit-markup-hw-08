@@ -98,6 +98,7 @@ img {
 
 .logo__theme-dark {
   color: var(--add-white-color);
+  text-align: center;
 }
 
 .logo__accent-text {
@@ -710,6 +711,13 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .tabler-footer-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .footer-form__email-input {
     max-width: 450px;
@@ -816,6 +824,7 @@ img {
 
 .logo__theme-dark {
   color: var(--add-white-color);
+  text-align: center;
 }
 
 .logo__accent-text {
@@ -1993,6 +2002,13 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tabler-footer-wrapper {
+    display: flex;
+    flex-direction: row;
   }
 }
 
