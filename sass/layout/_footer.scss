@@ -6,10 +6,6 @@
 
 .footer-wrapper {
   text-align: center;
-
-  &:not(:last-child) {
-    margin-bottom: 60px;
-  }
 }
 
 .address {
@@ -73,8 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin-bottom: 60px;
   }
 
   &__link {
@@ -196,6 +190,14 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (max-width: 767px) {
+  .footer-social {
+    &__list {
+      margin-bottom: 60px;
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
   .tablet-footer-wrapper {
     display: flex;
@@ -213,6 +215,12 @@
 
     &__email-input {
       max-width: 450px;
+    }
+  }
+
+  .footer-wrapper {
+    &:not(:last-child) {
+      margin-bottom: 60px;
     }
   }
 }
