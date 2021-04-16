@@ -119,6 +119,10 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
   .menu {
     display: none;
   }
@@ -258,7 +262,6 @@ img {
   .menu {
     display: flex;
     align-items: center;
-    margin-right: 84px;
   }
   .menu__item:not(:last-child) {
     margin-right: 50px;
