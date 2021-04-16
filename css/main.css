@@ -333,6 +333,8 @@ img {
   .nav {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
   .menu {
     display: flex;
@@ -708,12 +710,6 @@ img {
     justify-content: space-between;
     padding-left: 76px;
     padding-right: 89px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-form__email-input {
-    max-width: 450px;
   }
 }
 
@@ -1465,6 +1461,8 @@ img {
   .nav {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
   .menu {
     display: flex;
@@ -2141,12 +2139,6 @@ img {
     justify-content: space-between;
     padding-left: 76px;
     padding-right: 89px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-form__email-input {
-    max-width: 450px;
   }
 }
 
