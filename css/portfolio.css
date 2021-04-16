@@ -729,9 +729,17 @@ img {
   }
   .tablet-footer-wrapper {
     align-items: baseline;
+    margin-right: 93px;
   }
   .address__info {
     margin-bottom: 9px;
+  }
+  .footer-contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer-form {
+    display: flex;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */
