@@ -103,9 +103,16 @@ img {
   color: var(--accent-color);
 }
 
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+@media screen and (min-width: 768px) {
+  .logo__theme-light {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__theme-light {
+    margin-right: 93px;
+  }
 }
 
 @media screen and (max-width: 767px) {

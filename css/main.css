@@ -103,9 +103,16 @@ img {
   color: var(--accent-color);
 }
 
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+@media screen and (min-width: 768px) {
+  .logo__theme-light {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__theme-light {
+    margin-right: 93px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -819,6 +826,18 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .logo__theme-light {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__theme-light {
+    margin-right: 93px;
+  }
+}
+
 .modal-button {
   min-width: 200px;
   padding: 10px 32px;
@@ -1082,11 +1101,6 @@ img {
     line-height: 1.16;
     margin-bottom: 50px;
   }
-}
-
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 @media screen and (max-width: 767px) {
