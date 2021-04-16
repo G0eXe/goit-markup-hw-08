@@ -711,7 +711,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .footer-form__email-input {
     max-width: 450px;
   }
@@ -1996,7 +1996,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .footer-form__email-input {
     max-width: 450px;
   }
