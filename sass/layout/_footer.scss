@@ -215,7 +215,20 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-wrapper:not(:last-child) {
+    margin-bottom: 60px;
+    text-align: start;
+  }
+
+  .footer-wrapper {
+    text-align: start;
+  }
 }
 
 // .footer-wrapper {

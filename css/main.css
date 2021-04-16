@@ -81,9 +81,6 @@ img {
   .container {
     max-width: 1200px;
   }
-  .footer .container {
-    display: flex;
-  }
 }
 
 .logo {
@@ -723,6 +720,20 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-wrapper:not(:last-child) {
+    margin-bottom: 60px;
+    text-align: start;
+  }
+  .footer-wrapper {
+    text-align: start;
+  }
+}
+
 :root {
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
@@ -805,9 +816,6 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-  }
-  .footer .container {
-    display: flex;
   }
 }
 
@@ -2008,6 +2016,20 @@ img {
 @media screen and (max-width: 1199px) {
   .footer-form__email-input {
     max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-wrapper:not(:last-child) {
+    margin-bottom: 60px;
+    text-align: start;
+  }
+  .footer-wrapper {
+    text-align: start;
   }
 }
 /*# sourceMappingURL=main.css.map */
