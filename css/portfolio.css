@@ -103,12 +103,6 @@ img {
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 768px) {
-  .logo {
-    margin-right: 83px;
-  }
-}
-
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
