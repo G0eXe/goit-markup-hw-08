@@ -711,6 +711,7 @@ img {
   .tablet-footer-wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
   }
 }
 
