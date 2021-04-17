@@ -115,6 +115,10 @@ img {
   }
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 @media screen and (max-width: 767px) {
   .nav {
     padding-top: 16px;
@@ -175,7 +179,7 @@ img {
     height: 30px;
   }
   .mobile-menu__close-btn .mobile-menu__close-icon:hover,
-  .mobile-menu :focus {
+  .mobile-menu__close-btn .mobile-menu__close-icon:focus {
     fill: var(--accent-color);
   }
   .mobile-menu__link {
@@ -328,9 +332,6 @@ img {
   }
   .mobile-menu {
     display: none;
-  }
-  .header {
-    border-bottom: 1px solid #ececec;
   }
   .nav {
     display: flex;
