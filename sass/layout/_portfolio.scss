@@ -52,7 +52,7 @@
 
 .card-set {
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
 
   &__item {
     display: flex;
@@ -134,6 +134,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .card-set {
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .filter {
     flex-wrap: nowrap;
@@ -153,6 +159,18 @@
 
       margin-left: 30px;
       margin-top: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+  }
+
+  .card-set {
+    &__item {
+      flex-basis: calc(100% / 3 - 30px);
     }
   }
 }
