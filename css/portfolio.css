@@ -219,6 +219,7 @@ img {
   }
   .mobile-social__list {
     display: flex;
+    flex-wrap: wrap;
   }
   .mobile-social__item:not(:last-child) {
     margin-right: 10px;
@@ -451,8 +452,8 @@ img {
 
 .card-set__item {
   display: flex;
-  width: 100%;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .card-set__link {
@@ -654,7 +655,7 @@ img {
 }
 
 .footer-form__button-text {
-  font-family: var(--add-white-color);
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
