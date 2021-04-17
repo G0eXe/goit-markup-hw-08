@@ -477,6 +477,7 @@ img {
 }
 
 .card__content {
+  flex-grow: 1;
   background: var(--add-white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;

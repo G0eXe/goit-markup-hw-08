@@ -52,7 +52,6 @@
 
 .card-set {
   display: flex;
-  // flex-direction: column;
 
   &__item {
     display: flex;
@@ -79,6 +78,7 @@
 
 .card {
   &__content {
+    flex-grow: 1;
     background: var(--add-white-color);
     border: 1px solid #eeeeee;
     box-sizing: border-box;
