@@ -423,10 +423,6 @@ img {
   margin-right: 8px;
 }
 
-.filter__item {
-  margin-bottom: 15px;
-}
-
 .filter__item-button {
   background: #f5f4fa;
   border-radius: 4px;
@@ -457,7 +453,6 @@ img {
 
 .card-set__item {
   display: flex;
-  margin-bottom: 30px;
 }
 
 .card-set__link {
@@ -529,6 +524,9 @@ img {
 @media screen and (max-width: 767px) {
   .card-set {
     flex-direction: column;
+  }
+  .card-set__item {
+    margin-bottom: 30px;
   }
 }
 
@@ -1541,7 +1539,6 @@ img {
 
 .features {
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .features-list {
@@ -1601,11 +1598,20 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
   }
+  .features-list__item .features-list__item-title {
+    text-align: start;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .features-list__item {
     width: 270px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .features {
+    padding-bottom: 60px;
   }
 }
 
