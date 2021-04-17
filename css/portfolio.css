@@ -450,6 +450,13 @@ img {
   border: 1px solid transparent;
 }
 
+.card-set {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card-set__item {
   display: flex;
   margin-bottom: 30px;

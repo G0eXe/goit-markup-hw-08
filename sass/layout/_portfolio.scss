@@ -52,6 +52,11 @@
 }
 
 .card-set {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
   &__item {
     display: flex;
     margin-bottom: 30px;
